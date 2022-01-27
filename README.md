@@ -19,7 +19,7 @@ Project Face Tracking
 -----------------------------------
 
 <p align = "center">
-    <img src = "https://github.com/Raihan-009/openCV_HandDetection/blob/main/results/handTracking01.png">
+    <img src = "https://github.com/Raihan-009/openCV_FaceDetection/blob/main/results/faceTracking01.png">
 </p>
 
 
