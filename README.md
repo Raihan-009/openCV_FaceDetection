@@ -18,11 +18,6 @@ Mediapipe
 Project Face Tracking with Mediapipe
 ------------------------------------
 
-<p align = "center">
-    <img src = "https://github.com/Raihan-009/openCV_FaceDetection/blob/main/results/faceTracking01.png">
-</p>
-
-
 ```python
 import cv2
 import mediapipe
@@ -43,6 +38,11 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 ```
+
+<p align = "center">
+    <img src = "https://github.com/Raihan-009/openCV_FaceDetection/blob/main/results/faceTracking01.png">
+</p>
+
 
 -----------------------------------
 Haar Cascade Classifier
