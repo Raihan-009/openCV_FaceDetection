@@ -57,6 +57,28 @@ You can get necessary haarcascade file here [harcascade_frontalface_default.xml]
 Project Face Detection with Haar Cascade Classifier
 ---------------------------------------------------
 
+> For Static Face Detection 
+
+```python
+import cv2
+import faceDetector as fd
+img = cv2.imread("/Users/Shinigami/Desktop/openCV_FaceDetection/demoface.jpeg")
+
+tracker = fd.faceDetection(scaleFactor=2)
+
+_, img = tracker.findFaces(img)
+
+cv2.imshow("Framing", img)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+```
+
+<p align = "center">
+    <img src = "https://github.com/Raihan-009/openCV_FaceDetection/blob/main/results/staticFaceDetection.png">
+</p>
+
+> For Dynamic or Real Time Face Detection
+
 ```python
 import cv2
 import faceDetector as fd
