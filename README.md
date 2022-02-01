@@ -147,7 +147,7 @@ cv2.destroyAllWindows()
 ```
 
 <p align = "center">
-    <img src = "https://github.com/Raihan-009/openCV_FaceDetection/blob/main/results/staticFaceDetection.png">
+    <img src = "https://github.com/Raihan-009/openCV_FaceDetection/blob/main/results/faceTracingUsingDlib.png">
 </p>
 
 > For Dynamic or Real Time Face Detection using dlib
